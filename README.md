@@ -28,3 +28,8 @@ At a very high level, our goal is to produce X' such that MSE(X) = MSE(X') + e  
 - https://en.wikipedia.org/wiki/Autoencoder
 - http://ufldl.stanford.edu/tutorial/unsupervised/Autoencoders/
 - https://blog.keras.io/building-autoencoders-in-keras.html
+
+## Work left to do
+- Choose threshold for anomalies with precision-recall curves.
+- Build model using H2O, compare speeds of development and AUC.
+- Improve readme.
