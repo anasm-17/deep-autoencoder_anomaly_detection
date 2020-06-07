@@ -22,7 +22,7 @@ More complex functions can be learned by adding more hidden layers. By building 
 - b - number of features at the central hidden layer (b<k)
 
 ## More about autoencoders
-At a very high level, our goal is to produce X' such that MSE(X) = MSE(X') + e   where e is the reconstruction error and we would like this error to be extremely low. 
+At a very high level, our goal is to produce X' such that `MSE(X - X') = e`, where e is the reconstruction error and we would like this error to be extremely low (0 ideally). 
 
 #### Sources to learn more:
 - https://en.wikipedia.org/wiki/Autoencoder
